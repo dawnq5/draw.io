@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-27T13:56:12.055Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="p-RwBf5LOiKYgXksa1CB" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-27T14:46:30.950Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="w8jYISCogpiUw0W5FQNI" version="16.6.4" type="github">
   <diagram id="Ow_PxB39bdyT6ah7yO31" name="第 1 页">
     <mxGraphModel dx="1250" dy="1750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -185,7 +185,7 @@
             <mxRectangle width="330" height="47" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="z2LM5bqwZendBcAixlz2-21" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;" vertex="1" parent="z2LM5bqwZendBcAixlz2-18">
+        <mxCell id="z2LM5bqwZendBcAixlz2-21" value="1.将key的过期时间延长，校验流水时校验前一天的流水&lt;br&gt;2.牺牲一点可用性，等mq数据消费完&amp;nbsp;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;" vertex="1" parent="z2LM5bqwZendBcAixlz2-18">
           <mxGeometry x="560" width="280" height="47" as="geometry">
             <mxRectangle width="280" height="47" as="alternateBounds" />
           </mxGeometry>
@@ -203,7 +203,7 @@
             <mxRectangle width="330" height="47" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="z2LM5bqwZendBcAixlz2-25" value="无法解决" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;" vertex="1" parent="z2LM5bqwZendBcAixlz2-22">
+        <mxCell id="z2LM5bqwZendBcAixlz2-25" value="牺牲一点可用性，等待mq的数据全部处理完成，将redis key删除。根据测试，服务会卡顿3-10秒。前端页面会弹出正在排队的友好画面。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;" vertex="1" parent="z2LM5bqwZendBcAixlz2-22">
           <mxGeometry x="560" width="280" height="47" as="geometry">
             <mxRectangle width="280" height="47" as="alternateBounds" />
           </mxGeometry>
