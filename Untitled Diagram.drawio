@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-27T14:46:30.950Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="w8jYISCogpiUw0W5FQNI" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-27T14:50:15.064Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="YAiFxumoml4unMZu76TO" version="16.6.4" type="github">
   <diagram id="Ow_PxB39bdyT6ah7yO31" name="第 1 页">
     <mxGraphModel dx="1250" dy="1750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -92,7 +92,7 @@
           <mxGeometry x="250" y="-40" width="204" height="110" as="geometry" />
         </mxCell>
         <mxCell id="cSj56Bkl-ythe_LLcU9s-37" value="由于redis的主从同步方式问题，当master宕机，数据还未完全同步到slave , slave会升级为新的master，导致部分数据丢失，可能会导致抽奖次数没有限制住 。消费者会做最后保证，每次发礼券和扣积分时，会检查流水，如果流水有已经够了，就不在扣积分和发礼券了" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;glass=0;spacing=0;spacingTop=-2;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="640" y="340" width="250" height="110" as="geometry" />
+          <mxGeometry x="530" y="270" width="250" height="110" as="geometry" />
         </mxCell>
         <mxCell id="cSj56Bkl-ythe_LLcU9s-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="cSj56Bkl-ythe_LLcU9s-38" target="cSj56Bkl-ythe_LLcU9s-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -185,7 +185,7 @@
             <mxRectangle width="330" height="47" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="z2LM5bqwZendBcAixlz2-21" value="1.将key的过期时间延长，校验流水时校验前一天的流水&lt;br&gt;2.牺牲一点可用性，等mq数据消费完&amp;nbsp;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;" vertex="1" parent="z2LM5bqwZendBcAixlz2-18">
+        <mxCell id="z2LM5bqwZendBcAixlz2-21" value="1.将key的过期时间延长，校验流水时校验前一天的流水（选择第一种方案）&lt;br&gt;2.牺牲一点可用性，等mq数据消费完&amp;nbsp;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;" vertex="1" parent="z2LM5bqwZendBcAixlz2-18">
           <mxGeometry x="560" width="280" height="47" as="geometry">
             <mxRectangle width="280" height="47" as="alternateBounds" />
           </mxGeometry>
