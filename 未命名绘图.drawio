@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-14T04:14:52.749Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="wg5VHDmog9hh_kW--yIr" version="17.4.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-14T04:20:05.192Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="cbXIhKI2hE_xi4VB93_o" version="17.4.5" type="github" pages="2">
   <diagram id="KzXo4lCQdF08V09xWkdI" name="Queue">
     <mxGraphModel dx="1006" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -53,10 +53,10 @@
           <mxGeometry x="49" y="255" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="uyAxJpKGS8kve1YCeigY-13" value="LinkList" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="159" y="375" width="110" height="40" as="geometry" />
+          <mxGeometry x="98.5" y="375" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="uyAxJpKGS8kve1YCeigY-14" value="PriorityQueue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="323" y="375" width="110" height="40" as="geometry" />
+          <mxGeometry x="262.5" y="375" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="uyAxJpKGS8kve1YCeigY-40" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="uyAxJpKGS8kve1YCeigY-15" target="uyAxJpKGS8kve1YCeigY-17">
           <mxGeometry relative="1" as="geometry" />
@@ -65,7 +65,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uyAxJpKGS8kve1YCeigY-15" value="ArrayBlockingQueue&lt;br&gt;LinkedBlockingQueue&lt;br&gt;DelayQueue&lt;br&gt;PriorityBlockingQueue&lt;br&gt;SynchronousQueue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=center;" vertex="1" parent="1">
-          <mxGeometry x="559" y="375" width="130" height="90" as="geometry" />
+          <mxGeometry x="610" y="375" width="130" height="90" as="geometry" />
         </mxCell>
         <mxCell id="uyAxJpKGS8kve1YCeigY-17" value="BlockingQueue" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="569" y="255" width="110" height="40" as="geometry" />
@@ -127,11 +127,20 @@
             <mxPoint x="369" y="195" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="4PAFpciJhDnkPWd105Xk-1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="j3_in5Vc3KeYyDWf9o8w-1" target="uyAxJpKGS8kve1YCeigY-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4PAFpciJhDnkPWd105Xk-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="j3_in5Vc3KeYyDWf9o8w-1" target="uyAxJpKGS8kve1YCeigY-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j3_in5Vc3KeYyDWf9o8w-1" value="ConcurrentLinkedQueue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="408.5" y="375" width="160.5" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="l86Qap9Pw-BIYByq9PCw" name="第 2 页">
-    <mxGraphModel dx="1458" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1006" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -172,10 +181,10 @@
           <mxGeometry x="49" y="255" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Mq9KtIkIpxBORLREzxx7-17" value="LinkList" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="159" y="375" width="110" height="40" as="geometry" />
+          <mxGeometry x="113" y="390" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Mq9KtIkIpxBORLREzxx7-18" value="PriorityQueue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="323" y="375" width="110" height="40" as="geometry" />
+          <mxGeometry x="277" y="390" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Mq9KtIkIpxBORLREzxx7-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="Mq9KtIkIpxBORLREzxx7-21" target="Mq9KtIkIpxBORLREzxx7-22">
           <mxGeometry relative="1" as="geometry" />
@@ -184,7 +193,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Mq9KtIkIpxBORLREzxx7-21" value="ArrayBlockingQueue&lt;br&gt;LinkedBlockingQueue&lt;br&gt;DelayQueue&lt;br&gt;PriorityBlockingQueue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=center;" vertex="1" parent="1">
-          <mxGeometry x="559" y="375" width="130" height="90" as="geometry" />
+          <mxGeometry x="584" y="390" width="130" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Mq9KtIkIpxBORLREzxx7-22" value="BlockingQueue" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="569" y="255" width="110" height="40" as="geometry" />
@@ -242,6 +251,17 @@
             <mxPoint x="599" y="265" as="sourcePoint" />
             <mxPoint x="369" y="195" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="zopRE205OBep2a_Bfpa--2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="zopRE205OBep2a_Bfpa--1" target="Mq9KtIkIpxBORLREzxx7-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zopRE205OBep2a_Bfpa--3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;fontSize=11;" edge="1" parent="1" source="zopRE205OBep2a_Bfpa--1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zopRE205OBep2a_Bfpa--1" value="ConcurrentLinkedQueue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="413" y="390" width="151" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
