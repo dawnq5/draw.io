@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-19T09:32:05.377Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="2l_XYxFXWpoRfE3ErEwh" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-19T10:13:23.312Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="Ei19N0owBUxSlX_dx2qK" version="18.0.2" type="github">
   <diagram id="Ow_PxB39bdyT6ah7yO31" name="第 1 页">
     <mxGraphModel dx="1102" dy="1751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,21 +16,21 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cSj56Bkl-ythe_LLcU9s-1" value="抽奖服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="230" y="200" width="120" height="50" as="geometry" />
+          <mxGeometry x="205" y="-140" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cSj56Bkl-ythe_LLcU9s-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="cSj56Bkl-ythe_LLcU9s-2" target="cSj56Bkl-ythe_LLcU9s-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cSj56Bkl-ythe_LLcU9s-2" value="MQ消息消费服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="540" y="190" width="120" height="60" as="geometry" />
+          <mxGeometry x="515" y="-150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cSj56Bkl-ythe_LLcU9s-4" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="cSj56Bkl-ythe_LLcU9s-1" target="cSj56Bkl-ythe_LLcU9s-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="310" as="sourcePoint" />
-            <mxPoint x="440" y="260" as="targetPoint" />
+            <mxPoint x="365" y="-30" as="sourcePoint" />
+            <mxPoint x="415" y="-80" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="430" y="230" />
-              <mxPoint x="420" y="210" />
+              <mxPoint x="405" y="-110" />
+              <mxPoint x="395" y="-130" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -40,41 +40,41 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cSj56Bkl-ythe_LLcU9s-7" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="710" y="170" width="60" height="80" as="geometry" />
+          <mxGeometry x="685" y="-170" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cSj56Bkl-ythe_LLcU9s-8" value="抽奖记录流水表" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="800" y="70" width="70" height="60" as="geometry" />
+          <mxGeometry x="775" y="-270" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cSj56Bkl-ythe_LLcU9s-9" value="用户积分" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="800" y="170" width="70" height="60" as="geometry" />
+          <mxGeometry x="775" y="-170" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cSj56Bkl-ythe_LLcU9s-10" value="中奖记录" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="800" y="270" width="70" height="60" as="geometry" />
+          <mxGeometry x="775" y="-70" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cSj56Bkl-ythe_LLcU9s-14" value="" style="shape=message;html=1;whiteSpace=wrap;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="420" y="220" width="40" height="20" as="geometry" />
+          <mxGeometry x="395" y="-120" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="cSj56Bkl-ythe_LLcU9s-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="cSj56Bkl-ythe_LLcU9s-16" target="cSj56Bkl-ythe_LLcU9s-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="95" y="225" />
+              <mxPoint x="70" y="-115" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="cSj56Bkl-ythe_LLcU9s-16" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="65" y="200" width="30" height="50" as="geometry" />
+          <mxGeometry x="40" y="-140" width="30" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cSj56Bkl-ythe_LLcU9s-17" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="150" y="80" width="60" height="80" as="geometry" />
+          <mxGeometry x="125" y="-260" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cSj56Bkl-ythe_LLcU9s-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.449;entryY=1.031;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="cSj56Bkl-ythe_LLcU9s-27" target="cSj56Bkl-ythe_LLcU9s-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cSj56Bkl-ythe_LLcU9s-27" value="redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=1;glass=0;" parent="1" vertex="1">
-          <mxGeometry x="384" y="100" width="60" height="80" as="geometry" />
+          <mxGeometry x="359" y="-240" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="cSj56Bkl-ythe_LLcU9s-30" value="UserInfo" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;glass=0;" parent="1" vertex="1">
-          <mxGeometry x="460" y="-70" width="140" height="104" as="geometry" />
+        <mxCell id="cSj56Bkl-ythe_LLcU9s-30" value="UserdrawInfo" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;glass=0;" parent="1" vertex="1">
+          <mxGeometry x="435" y="-410" width="140" height="104" as="geometry" />
         </mxCell>
         <mxCell id="cSj56Bkl-ythe_LLcU9s-31" value="accid   用户最大流水id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;glass=0;" parent="cSj56Bkl-ythe_LLcU9s-30" vertex="1">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -86,34 +86,36 @@
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="cSj56Bkl-ythe_LLcU9s-35" value="用户积分" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="40" y="40" width="70" height="60" as="geometry" />
+          <mxGeometry x="30" y="-330" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cSj56Bkl-ythe_LLcU9s-36" value="判断积分是否足够，如果足够，继续抽奖，并把积分添加到redis，下次抽奖，直接从redis获取剩余积分。下次抽奖的剩余积分每次抽奖都会计算，剩余积分=point+积分到账流水-count*100." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;glass=0;spacing=0;spacingTop=-2;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="250" y="-40" width="204" height="110" as="geometry" />
+          <mxGeometry x="225" y="-380" width="204" height="110" as="geometry" />
         </mxCell>
         <mxCell id="cSj56Bkl-ythe_LLcU9s-37" value="由于redis的主从同步方式问题，当master宕机，数据还未完全同步到slave , slave会升级为新的master，导致部分数据丢失，可能会导致抽奖次数没有限制住 。消费者会做最后保证，每次发礼券和扣积分时，会检查流水，如果流水有已经够了，就不在扣积分和发礼券了" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;glass=0;spacing=0;spacingTop=-2;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="530" y="270" width="250" height="110" as="geometry" />
+          <mxGeometry x="505" y="-70" width="250" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="cSj56Bkl-ythe_LLcU9s-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="cSj56Bkl-ythe_LLcU9s-38" target="cSj56Bkl-ythe_LLcU9s-35" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="cSj56Bkl-ythe_LLcU9s-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cSj56Bkl-ythe_LLcU9s-38" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="-330" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="cSj56Bkl-ythe_LLcU9s-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="cSj56Bkl-ythe_LLcU9s-38" target="cSj56Bkl-ythe_LLcU9s-45" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cSj56Bkl-ythe_LLcU9s-38" value="积分到账" style="rounded=0;whiteSpace=wrap;html=1;glass=0;" parent="1" vertex="1">
-          <mxGeometry x="65" y="-100" width="100" height="50" as="geometry" />
+          <mxGeometry x="50" y="-440" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cSj56Bkl-ythe_LLcU9s-40" value="加积分" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="75" y="-20" width="50" height="20" as="geometry" />
+          <mxGeometry x="50" y="-360" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="cSj56Bkl-ythe_LLcU9s-45" value="积分到账流水" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="140" y="10" width="70" height="60" as="geometry" />
+          <mxGeometry x="115" y="-330" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cSj56Bkl-ythe_LLcU9s-47" value="积分到账流水" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="800" y="-8" width="70" height="60" as="geometry" />
+          <mxGeometry x="775" y="-348" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="z2LM5bqwZendBcAixlz2-2" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rowLines=1;fixedRows=0;swimlaneLine=1;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="40" y="450" width="840" height="390" as="geometry" />
+          <mxGeometry x="30" y="240" width="840" height="470" as="geometry" />
         </mxCell>
         <mxCell id="z2LM5bqwZendBcAixlz2-3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="z2LM5bqwZendBcAixlz2-2" vertex="1">
           <mxGeometry width="840" height="69" as="geometry" />
@@ -177,12 +179,12 @@
             <mxRectangle width="230" height="83" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="z2LM5bqwZendBcAixlz2-20" value="redis缓存key" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="z2LM5bqwZendBcAixlz2-18" vertex="1">
+        <mxCell id="z2LM5bqwZendBcAixlz2-20" value="redis缓存key。0点时，会产生新的 redis&lt;span style=&quot;&quot;&gt;UserdrawInfo 抽奖&lt;/span&gt;缓存，会重新统计积分表得到用户的积分，如果消息队列还有0点前产生的消息，这将导致统计到的积分不正确。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="z2LM5bqwZendBcAixlz2-18" vertex="1">
           <mxGeometry x="230" width="330" height="83" as="geometry">
             <mxRectangle width="330" height="83" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="z2LM5bqwZendBcAixlz2-21" value="1.将key的过期时间延长，校验流水时校验前一天的流水（选择第一种方案）&lt;br&gt;2.牺牲一点可用性，等mq数据消费完&amp;nbsp;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;" parent="z2LM5bqwZendBcAixlz2-18" vertex="1">
+        <mxCell id="z2LM5bqwZendBcAixlz2-21" value="1.将key的过期时间延长，校验流水时校验前一天的流水（选择第一种方案）&lt;br&gt;2.牺牲一点可用性，等mq数据消费完&lt;br&gt;3、十一点半开始使用同步方案，抽奖实时落库&amp;nbsp;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;" parent="z2LM5bqwZendBcAixlz2-18" vertex="1">
           <mxGeometry x="560" width="280" height="83" as="geometry">
             <mxRectangle width="280" height="83" as="alternateBounds" />
           </mxGeometry>
@@ -200,19 +202,90 @@
             <mxRectangle width="330" height="80" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="z2LM5bqwZendBcAixlz2-25" value="1.如果master宕机 sentinel触发通知。牺牲一点可用性，等待mq的数据全部处理完成，将redis key删除。根据测试，服务会卡顿3-10秒。前端页面会弹出正在排队的友好画面。&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;2.不使用sentinel模式，直连master ,等待master恢复&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;" parent="z2LM5bqwZendBcAixlz2-22" vertex="1">
+        <mxCell id="z2LM5bqwZendBcAixlz2-25" value="1.sentinel模式 如果master宕机 会丢失数据。（选择第一种），能容忍&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;2.不使用sentinel模式，直连master ,等待master恢复&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;" parent="z2LM5bqwZendBcAixlz2-22" vertex="1">
+          <mxGeometry x="560" width="280" height="80" as="geometry">
+            <mxRectangle width="280" height="80" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xHjCsA9y5CHgrXk_6utw-39" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="z2LM5bqwZendBcAixlz2-2">
+          <mxGeometry y="390" width="840" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xHjCsA9y5CHgrXk_6utw-40" value="高可用" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="xHjCsA9y5CHgrXk_6utw-39">
+          <mxGeometry width="230" height="80" as="geometry">
+            <mxRectangle width="230" height="80" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xHjCsA9y5CHgrXk_6utw-41" value="完全依赖redis，如果redis宕机导致不可用" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="xHjCsA9y5CHgrXk_6utw-39">
+          <mxGeometry x="230" width="330" height="80" as="geometry">
+            <mxRectangle width="330" height="80" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xHjCsA9y5CHgrXk_6utw-42" value="异步方案和同步方案同时部署，redis宕机或者其它遭难发生时可以两套方案互相切换。同步方案还用于解决0点时可能发生积分算多的问题。" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;" vertex="1" parent="xHjCsA9y5CHgrXk_6utw-39">
           <mxGeometry x="560" width="280" height="80" as="geometry">
             <mxRectangle width="280" height="80" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xHjCsA9y5CHgrXk_6utw-1" value="1、新增积分：根据用户id和accid查询积分到账流水表，得到在第一次抽奖后新添加的积分总和。&lt;br&gt;2、当天已消耗的积分：抽奖次数*100；每天最多抽奖三次&lt;br&gt;3、剩余总积分：新增积分+point-当天已消耗的积分" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;" vertex="1" parent="1">
-          <mxGeometry x="600" y="-190" width="340" height="90" as="geometry" />
+          <mxGeometry x="575" y="-530" width="340" height="90" as="geometry" />
         </mxCell>
         <mxCell id="xHjCsA9y5CHgrXk_6utw-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.465;entryY=0.989;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cSj56Bkl-ythe_LLcU9s-31" target="xHjCsA9y5CHgrXk_6utw-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xHjCsA9y5CHgrXk_6utw-3" value="？&lt;br&gt;1、为什么不在判断积分的时候每次都去统计积分表？中奖后消费积分是异步操作，每次都去统计积分得出的剩余总分不正确" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;" vertex="1" parent="1">
-          <mxGeometry x="980" y="-190" width="340" height="90" as="geometry" />
+          <mxGeometry x="40" y="40" width="450" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xHjCsA9y5CHgrXk_6utw-5" value="方案2：异步方案" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;strokeWidth=0;fontSize=18;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-570" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xHjCsA9y5CHgrXk_6utw-6" value="方案1：同步方案" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;strokeWidth=0;fontSize=18;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-990" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xHjCsA9y5CHgrXk_6utw-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="xHjCsA9y5CHgrXk_6utw-10" target="xHjCsA9y5CHgrXk_6utw-22" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xHjCsA9y5CHgrXk_6utw-8" value="查询用户积分" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xHjCsA9y5CHgrXk_6utw-7">
+          <mxGeometry x="0.1133" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xHjCsA9y5CHgrXk_6utw-10" value="抽奖服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="215" y="-799.01" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xHjCsA9y5CHgrXk_6utw-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="xHjCsA9y5CHgrXk_6utw-10" target="xHjCsA9y5CHgrXk_6utw-15" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="645" y="-779.01" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xHjCsA9y5CHgrXk_6utw-15" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="575" y="-814.01" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xHjCsA9y5CHgrXk_6utw-16" value="抽奖记录流水表" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="655" y="-901" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xHjCsA9y5CHgrXk_6utw-17" value="用户积分" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="655" y="-830" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xHjCsA9y5CHgrXk_6utw-18" value="中奖记录" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="655" y="-750.99" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xHjCsA9y5CHgrXk_6utw-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="xHjCsA9y5CHgrXk_6utw-21" target="xHjCsA9y5CHgrXk_6utw-10" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="-774.01" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xHjCsA9y5CHgrXk_6utw-21" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-799.01" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xHjCsA9y5CHgrXk_6utw-22" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="135" y="-919.01" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xHjCsA9y5CHgrXk_6utw-29" value="用户积分" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="45" y="-919.01" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xHjCsA9y5CHgrXk_6utw-37" value="积分到账流水" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="655" y="-970" width="70" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
