@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-24T09:16:59.076Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="q9lF9s7WuH97dmwQ4r05" version="18.0.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-24T09:27:38.993Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="_iTzNhA-Js8C1I9wmfj_" version="18.0.7" type="github" pages="2">
   <diagram id="U96nmtsuC6CPLKNtLgQE" name="Page-1">
     <mxGraphModel dx="1102" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -114,7 +114,7 @@
           <mxGeometry x="845" y="450" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8Aiz2fFXEaYCmJKjPgD4-47" value="对账申请一下三种情况不能申请：&lt;br style=&quot;font-size: 14px;&quot;&gt;1、存在未确认的活动不能申请&lt;br style=&quot;font-size: 14px;&quot;&gt;2、上一次申请流程未结束不能申请&lt;br style=&quot;font-size: 14px;&quot;&gt;3、申请间隔时间未超过供应商对账等级设置的天数不能申请）" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="620" y="580" width="400" height="70" as="geometry" />
+          <mxGeometry x="810" y="590" width="400" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8Aiz2fFXEaYCmJKjPgD4-48" value="文轩系统&lt;br&gt;ycg-wx-platform" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1020" y="250" width="120" height="60" as="geometry" />
@@ -150,7 +150,7 @@
           <mxGeometry x="1009" y="400" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="8Aiz2fFXEaYCmJKjPgD4-60" value="审核勾单确认开票金额：&lt;br style=&quot;font-size: 14px;&quot;&gt;页面点对账待办-预制凭证（未开票）-开票-根据勾单文件在sap做的预制明细得到开票金额-填写开票金额-保存" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="620" y="680" width="690" height="40" as="geometry" />
+          <mxGeometry x="810" y="690" width="690" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8Aiz2fFXEaYCmJKjPgD4-63" value="7、查看开票金额、查看勾单明细、线下开票" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="722" y="430" width="290" height="20" as="geometry" />
@@ -163,6 +163,9 @@
         </mxCell>
         <mxCell id="8Aiz2fFXEaYCmJKjPgD4-67" value="scm" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=14;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="620" y="90" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uH8UjuI1JGX6pbP9kg_1-2" value="&lt;div&gt;勾单处理状态：&lt;/div&gt;&lt;div&gt;1 : 待审核&lt;/div&gt;&lt;div&gt;2 : 审核拒绝&lt;/div&gt;&lt;div&gt;3 : 待确认&lt;/div&gt;&lt;div&gt;4 : 取消付款&lt;/div&gt;&lt;div&gt;5 : 待勾单&lt;/div&gt;&lt;div&gt;6 : 待上传&lt;/div&gt;&lt;div&gt;7 : 待预制&lt;/div&gt;&lt;div&gt;8 : 待回告&lt;/div&gt;&lt;div&gt;9 : 完成&lt;/div&gt;&lt;div&gt;10 : 已上传待预制&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="550" y="670" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -185,28 +188,37 @@
           <mxGeometry x="250" y="200" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="d2l_E1mK0we4JbdsYZAY-10" value="collating_detail_t&lt;br&gt;可结算商品凭证临时表" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="70" y="330" width="120" height="80" as="geometry" />
+          <mxGeometry x="430" y="80" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="d2l_E1mK0we4JbdsYZAY-11" value="bak_collating_detail_t&lt;br&gt;可结算商品凭证备份表" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="250" y="330" width="120" height="80" as="geometry" />
+          <mxGeometry x="610" y="80" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="d2l_E1mK0we4JbdsYZAY-12" value="collating_detail&lt;br&gt;对账明细表" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="70" y="440" width="120" height="80" as="geometry" />
+          <mxGeometry x="430" y="190" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="d2l_E1mK0we4JbdsYZAY-13" value="collating_collect&lt;br&gt;对账汇总表" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="250" y="440" width="120" height="80" as="geometry" />
+          <mxGeometry x="610" y="190" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="d2l_E1mK0we4JbdsYZAY-14" value="collating_is_mark_history&lt;br&gt;对账标红历史表" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="70" y="560" width="120" height="80" as="geometry" />
+          <mxGeometry x="430" y="320" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="d2l_E1mK0we4JbdsYZAY-15" value="DC_BATCH_DATA&lt;br&gt;流程表" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="440" y="80" width="120" height="80" as="geometry" />
+          <mxGeometry x="70" y="570" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="d2l_E1mK0we4JbdsYZAY-16" value="dc_definition_node&lt;br&gt;流程节点表" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="620" y="80" width="120" height="80" as="geometry" />
+          <mxGeometry x="70" y="440" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="d2l_E1mK0we4JbdsYZAY-17" value="dc_task&lt;br&gt;流程表" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="440" y="200" width="120" height="80" as="geometry" />
+          <mxGeometry x="250" y="440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AVLoHNUTZAiyaHKUJFzu-2" value="check_reject&lt;br&gt;勾单驳回" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="250" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T7H5OJsbhwyUVs12dw9x-1" value="billing&lt;br&gt;开票表" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="70" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T7H5OJsbhwyUVs12dw9x-2" value="billlevel_config&lt;br&gt;对账级别配置" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="430" y="440" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
