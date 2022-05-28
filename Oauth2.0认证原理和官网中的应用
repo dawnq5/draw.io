@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-05-28T05:38:29.616Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="DIyai6-oua15DlQaGnk5" version="18.0.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-28T05:39:46.718Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="iZpiBmbLcRKbbLwXYxue" version="18.0.3" type="github" pages="2">
   <diagram id="swH5sri_FAdhZOplbbes" name="原理">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="otZpcaZ7QC8Pptfllp5s-3" value="&lt;div&gt;OAuth2.0中规定了多种授权模式，其中授权码模式是最安全的模式，使用最广泛，也是主流。基本流程是先通过前端渠道客户获取授权码，&lt;/div&gt;&lt;div&gt;然后通过后端渠道，客户使用Authrization Code去交换Access Token和可选的Refresh Token，这种模式是最安全的模式，因为令牌不会通过user-agent去传递。&lt;span style=&quot;background-color: initial;&quot;&gt;授权码模式的优点是比较安全，他可以有token过期时间，而且上面的第四和第五步都是在服务器之间的访问，很难被截获，用户信息也存在服务端，这样就保证了他的安全性。他的缺点是需要进行多次请求才能访问到资源。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;授权码模式假定资源拥有者和客户不在一台设备上，他拥有高安全性的保障，目前市面上主流的第三方认证都是采用这种模式。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;dashed=1;dashPattern=1 4;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="20" y="50" width="770" height="90" as="geometry" />
+        <mxCell id="otZpcaZ7QC8Pptfllp5s-3" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;OAuth2.0中规定了多种授权模式，其中授权码模式是最安全的模式，使用最广泛，也是主流。基本流程是先通过前端渠道客户获取授权码，&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;然后通过后端渠道，客户使用Authrization Code去交换Access Token和可选的Refresh Token，这种模式是最安全的模式，因为令牌不会通过user-agent去传递。&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;授权码模式的优点是比较安全，他可以有token过期时间，而且上面的第四和第五步都是在服务器之间的访问，很难被截获，用户信息也存在服务端，这样就保证了他的安全性。他的缺点是需要进行多次请求才能访问到资源。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;授权码模式假定资源拥有者和客户不在一台设备上，他拥有高安全性的保障，目前市面上主流的第三方认证都是采用这种模式。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;dashed=1;dashPattern=1 4;fillColor=none;strokeColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="35" y="20" width="1020" height="90" as="geometry" />
         </mxCell>
         <mxCell id="otZpcaZ7QC8Pptfllp5s-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="otZpcaZ7QC8Pptfllp5s-4" target="otZpcaZ7QC8Pptfllp5s-14">
           <mxGeometry relative="1" as="geometry" />
